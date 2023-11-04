@@ -168,7 +168,7 @@ import ItemItinerario from './components/ItemItinerario.vue';
 	<div class="bg-cover bg-center" style="background-image: url('/images/eucaliptus-5.jpg')">
 		<div class="bg-opacity-60 bg-green-50 h-min flex items-center justify-center text-center p-3">
 
-			<p class=" cursiva text-2xl font-bold">Estamos organizando una fiesta al aire libre y esperamos que traigas tu propia bebida, para que podamos mantenernos hidratados y felices</p>
+			<p class=" cursiva text-2xl font-bold">Estamos organizando una fiesta al aire libre y esperamos que traigas tu propia bebida, para que podamos mantenernos hidratados y felices.</p>
 
 		</div>
 	</div>
