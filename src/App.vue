@@ -25,7 +25,7 @@ import ItemItinerario from './components/ItemItinerario.vue';
 
 
 	<!-- Civil y Celebracion -->
-	<div class="bg-cover bg-center sm:mb-32 mb-16" style="background-image: url('/images/eucaliptus-5.jpg')">
+	<div class="bg-cover bg-center" style="background-image: url('/images/eucaliptus-5.jpg')">
 		<div class="bg-opacity-50 bg-green-50 h-min flex items-center justify-center">
 			<div class="container mx-auto">
 
@@ -49,7 +49,7 @@ import ItemItinerario from './components/ItemItinerario.vue';
 	</div>
 
 	<!-- itinerario -->
-	<div class="bg-green-50 text-green-900">
+	<div class="bg-white text-green-900">
 		<div class="container mx-auto py-8">
 			<h1 class="text-4xl font-bold mb-6 text-center cursiva">Itinerario del Evento</h1>
 
@@ -90,7 +90,7 @@ import ItemItinerario from './components/ItemItinerario.vue';
 	</div>
 
 	<!-- siento que... -->
-	<div class="sm:mb-32 mb-10 border-t-2 border-b-2 border-emerald-900" style="background-image: url('/images/eucaliptus-2.jpg')">
+	<div class="border-t-2 border-b-2 border-emerald-900" style="background-image: url('/images/eucaliptus-2.jpg')">
 		<div class="bg-opacity-50 bg-green-50 h-80 flex items-center justify-center">
 			<div class="container mx-auto text-center cursiva">
 				<h1 class="text-4xl font-bold mb-4">Yo si creo</h1>
@@ -100,7 +100,7 @@ import ItemItinerario from './components/ItemItinerario.vue';
 	</div>
 
 	<!-- galeria -->
-	<div class="bg-green-100">
+	<div class="bg-white">
 		<div class="container mx-auto py-8">
 			<h1 class="text-4xl font-bold mb-6 text-center cursiva">Galería de Fotos</h1>
 
@@ -172,11 +172,10 @@ import ItemItinerario from './components/ItemItinerario.vue';
 	</div>
 
 	<!-- pedir bebida -->
-	<div class="sm:mb-32 mb-10 bg-cover bg-center border-t-2 border-b-2 border-emerald-900" style="background-image: url('/images/eucaliptus-2.jpg')">
+	<div class="bg-cover bg-center border-t-2 border-b-2 border-emerald-900" style="background-image: url('/images/eucaliptus-2.jpg')">
 		<div class="bg-opacity-50 bg-green-50 h-60 flex items-center justify-center">
 			<div class="container mx-auto text-center cursiva">
-				<!-- <h1 class="text-4xl font-bold mb-4">Sentimos que...</h1> -->
-				<p class="text-2xl font-bold mb-2">Estamos organizando una fiesta al aire libre y esperamos que traigas tu propia bebida, para que podamos mantenernos hidratados y felices.</p>
+				<p class="text-3xl font-bold mb-2">Estamos organizando una fiesta al aire libre y esperamos que traigas tu propia bebida, para que podamos mantenernos hidratados y felices.</p>
 			</div>
 		</div>
 	</div>

@@ -12,8 +12,8 @@
             <span class="text-lg mx-auto">{{ hora }}</span>
         </div>
         <div class="ml-4">
-            <h2 class="text-lg font-bold">{{ titulo }}</h2>
-            <p class="text-lg font-bold">{{ descripcion }}</p>
+            <h2 class="text-xl font-bold">{{ titulo }}</h2>
+            <p class="text-xl font-bold">{{ descripcion }}</p>
         </div>
     </div>
 </template>

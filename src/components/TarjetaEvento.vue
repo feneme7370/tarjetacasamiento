@@ -9,10 +9,10 @@
 </script>
 
 <template>
-    <div class="max-w-md mx-auto bg-emerald-50 rounded-md shadow-md overflow-hidden my-4 ">
+    <div class="max-w-md mx-auto bg-white rounded-md shadow-md overflow-hidden my-4 ">
         <img :src=" imagen  " alt="Evento 1" class="w-full h-60 object-cover">
         <div class="p-4">
-            <h2 class="text-2xl font-bold mb-2 cursiva">{{ nombre }}</h2>
+            <h2 class="text-3xl font-bold mb-2 cursiva">{{ nombre }}</h2>
             <p class="text-xl mb-2">{{ fecha }}</p>
             <p class="text-xl mb-2">{{ lugar }}</p>
             <div class="mt-1 flex justify-center items-center">

@@ -6,7 +6,7 @@
 	<div class="bg-green-100">
 		<div class="mx-auto pt-8">
 			<h1 class="text-4xl font-bold mb-6 text-center cursiva">Nuestro Regalo</h1>
-			<p class="container text-xl text-center">Es tu presencia pero si ademas quieres colaborar con nuestro proyecto de vida</p>
+			<p class="container text-2xl text-center cursiva">Es tu presencia pero si ademas quieres colaborar con nuestro proyecto de vida</p>
 
 			<div class="bg-white p-1 mt-4">
 				<div class="accordion">
@@ -16,7 +16,7 @@
 						<div class="accordion-icon">&#x25BC;</div>
 					</label>
 					<div class="accordion-content">
-						<p class="text-base text-center my-3">CBU: 1234567890123456</p>
+						<p class="text-base text-center my-3">1234567890123456</p>
 					</div>
 				</div>
 			</div>
