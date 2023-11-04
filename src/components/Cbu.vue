@@ -4,18 +4,19 @@
 
 <template>
 	<div class="bg-green-100">
-		<div class="container mx-auto py-8">
-			<!-- <h1 class="text-4xl font-bold mb-6 text-center cursiva">Si queres colaborar</h1> -->
+		<div class="mx-auto pt-8">
+			<h1 class="text-4xl font-bold mb-6 text-center cursiva">Nuestro Regalo</h1>
+			<p class="container text-xl text-center">Es tu presencia pero si ademas quieres colaborar con nuestro proyecto de vida</p>
 
-			<div class="bg-white p-6 rounded-lg shadow-md">
+			<div class="bg-white p-1 mt-4">
 				<div class="accordion">
 					<input type="checkbox" class="accordion-checkbox" id="panel1">
 					<label class="accordion-label cursor-pointer" for="panel1">
-						<h2 class="text-3xl font-bold cursiva">Si queres colaborar</h2>
+						<h2 class="text-xl pl-10">Ver CBU</h2>
 						<div class="accordion-icon">&#x25BC;</div>
 					</label>
 					<div class="accordion-content">
-						<p class="text-base text-center">CBU: 1234567890123456</p>
+						<p class="text-base text-center my-3">CBU: 1234567890123456</p>
 					</div>
 				</div>
 			</div>
@@ -33,8 +34,8 @@
 				justify-content: space-between;
 				align-items: center;
 				cursor: pointer;
-				padding: 1rem;
-				border-bottom: 1px solid #ccc;
+				/* padding: 1rem; */
+				/* border-bottom: 1px solid #ccc; */
 			}
 
 			.accordion-icon {
@@ -43,7 +44,7 @@
 
 			.accordion-content {
 				display: none;
-				padding: 1rem;
+				/* padding: 1rem; */
 			}
 
 			.accordion-checkbox:checked+.accordion-label .accordion-icon {
