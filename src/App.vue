@@ -8,12 +8,9 @@ import ItemItinerario from './components/ItemItinerario.vue';
 </script>
 
 <template>
-	<!-- Imagen de fondo con opacidad -->
-	<!-- <img src="https://c.wallhere.com/photos/71/03/ring_dress_engagement_couple_wedding-787371.jpg!d" alt="Imagen de fondo" class="absolute inset-0 w-full h-full object-cover opacity-50"> -->
 
 	<!-- portada -->
 	<Portada />
-
 
 	<!-- texto sentimos que... -->
 
@@ -21,7 +18,7 @@ import ItemItinerario from './components/ItemItinerario.vue';
 		<div class="bg-opacity-50 bg-green-50 h-80 flex items-center justify-center">
 			<div class="container mx-auto text-center cursiva">
 				<h1 class="text-4xl font-bold mb-4">Sentimos que...</h1>
-				<p class="text-lg mb-2">Cuando te das cuenta de que quieres pasar el resto de tu vida con alguien, deseas que el resto de tu
+				<p class="text-2xl mb-2">Cuando te das cuenta de que quieres pasar el resto de tu vida con alguien, deseas que el resto de tu
 					vida empiece lo antes posible.</p>
 			</div>
 		</div>
@@ -38,12 +35,14 @@ import ItemItinerario from './components/ItemItinerario.vue';
 					:fecha="'Fecha: 12 de Enero, 2024'"
 					:lugar="'Lugar: Alsina 356, Pehuajo'"
 					:imagen="'/images/nosotros1.jpeg'"
+					:mapa="'https://www.google.com/maps/place/Registro+Civil/@-35.8111359,-61.9017263,16z/data=!4m10!1m2!2m1!1sregistro+civil+pehuajo+!3m6!1s0x95c0f82d5b461f57:0x4af780ced0f990a4!8m2!3d-35.8100811!4d-61.8987523!15sChZyZWdpc3RybyBjaXZpbCBwZWh1YWpvkgEPcmVnaXN0cnlfb2ZmaWNl4AEA!16s%2Fg%2F11dxl9y74q?hl=es&entry=ttu'"
 				/>
 				<TarjetaEvento 
 					:nombre="'Celebracion'"
 					:fecha="'Fecha: 13 de Enero, 2024'"
 					:lugar="'Lugar: Ruta 366, Pehuajo'"
 					:imagen="'/images/nosotros2.jpeg'"
+					:mapa="'https://www.google.com/maps/place/Arenales+356,+Carlos+Casares,+Provincia+de+Buenos+Aires/@-35.6197884,-61.3618965,17z/data=!3m1!4b1!4m5!3m4!1s0x95c0823ae11e9dd1:0x1c3caf321fdbb6b2!8m2!3d-35.6197928!4d-61.3593216?hl=es&entry=ttu'"
 				/>
 
 			</div>
@@ -56,7 +55,6 @@ import ItemItinerario from './components/ItemItinerario.vue';
 			<h1 class="text-4xl font-bold mb-6 text-center cursiva">Itinerario del Evento</h1>
 
 			<div class="relative">
-				<!-- <div class="absolute h-full w-1 bg-green-600 left-1/2 transform -translate-x-1/2"></div> -->
 
 				<ItemItinerario
 					:hora="'20:30'"
@@ -126,10 +124,11 @@ import ItemItinerario from './components/ItemItinerario.vue';
 		</div>
 	</div>
 
+	<!-- confirmar asistencia -->
 	<div class="border-t-2 border-b-2 border-emerald-900">
 
 		<img src="/images/eucaliptus-4.jpg" alt="">
-		<!-- confirmar asistencia -->
+		
 		<div class="bg-white">
 			<div class="container mx-auto py-8">
 				<h1 class="text-4xl font-bold mb-10 text-center cursiva">Confirmanos tu asistencia</h1>
@@ -146,6 +145,9 @@ import ItemItinerario from './components/ItemItinerario.vue';
 		</div>
 		<img src="/images/eucaliptus-4.jpg" class="rotate-180" alt="">
 	</div>
+
+
+
 	<!-- texto agradecimiento -->
 	<div class="bg-green-100">
 		<div class="container mx-auto py-8">
@@ -159,6 +161,15 @@ import ItemItinerario from './components/ItemItinerario.vue';
 					</a>
 				</div>
 			</div>
+		</div>
+	</div>
+
+	<!-- pedir bebida -->
+	<div class="bg-cover bg-center" style="background-image: url('/images/eucaliptus-5.jpg')">
+		<div class="bg-opacity-60 bg-green-50 h-min flex items-center justify-center text-center p-3">
+
+			<p class=" cursiva text-2xl font-bold">Queriamos pedirte si podrias llevar para tomar lo que te guste</p>
+
 		</div>
 	</div>
 
