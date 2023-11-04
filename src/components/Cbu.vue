@@ -5,17 +5,17 @@
 <template>
 	<div class="bg-green-100">
 		<div class="container mx-auto py-8">
-			<h1 class="text-3xl font-bold mb-6 text-center">Si queres colaborar</h1>
+			<!-- <h1 class="text-4xl font-bold mb-6 text-center cursiva">Si queres colaborar</h1> -->
 
 			<div class="bg-white p-6 rounded-lg shadow-md">
 				<div class="accordion">
 					<input type="checkbox" class="accordion-checkbox" id="panel1">
 					<label class="accordion-label cursor-pointer" for="panel1">
-						<h2 class="text-xl font-semibold">Haz una Donación</h2>
+						<h2 class="text-3xl font-bold cursiva">Si queres colaborar</h2>
 						<div class="accordion-icon">&#x25BC;</div>
 					</label>
 					<div class="accordion-content">
-						<p class="text-lg font-semibold">1234 5678 9012 3456</p>
+						<p class="text-base text-center">CBU: 1234567890123456</p>
 					</div>
 				</div>
 			</div>

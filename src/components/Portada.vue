@@ -13,11 +13,11 @@
 		<img src="https://www.educima.com/imagen-anillos-de-boda-dl28309.jpg" alt="Imagen de fondo"
 			class="absolute opacity-50 inset-0 w-full h-full object-cover">
 	</div> -->
-	<div class="bg-cover bg-center sm:mb-32 mb-16" style="background-image: url('https://www.educima.com/imagen-anillos-de-boda-dl28309.jpg')">
+	<div class="bg-cover bg-center sm:mb-32 mb-10" style="background-image: url('/src/assets/images/nosotros1.jpeg')">
 		<div class="bg-opacity-50 bg-green-50 h-80 flex items-center justify-center">
-			<div class="container mx-auto text-center">
+			<div class="container mx-auto text-center cursiva">
 				<h1 class="text-4xl font-bold mb-4">Nuesto Casamiento</h1>
-				<p class="text-sm mb-2">Queremos invitarte a nuestro casamiento.</p>
+				<p class="text-3xl mb-2">Fede y Cinti.</p>
 			</div>
 		</div>
 	</div>

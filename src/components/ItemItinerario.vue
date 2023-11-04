@@ -8,7 +8,7 @@
 
 <template>
     <div class="flex items-center mb-8">
-        <div class="bg-green-600 text-white rounded-full p-3">
+        <div class="bg-emerald-700 text-white rounded-full p-3">
             <span class="text-base mx-auto">{{ hora }}</span>
         </div>
         <div class="ml-4">

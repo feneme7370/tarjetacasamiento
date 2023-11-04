@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.cursiva {
+    font-family: 'Dancing Script', cursive;
+}
+
 .form{
     @apply bg-gray-300 rounded-md p-5 m-2;
 }
