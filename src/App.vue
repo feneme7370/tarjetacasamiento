@@ -13,7 +13,6 @@ import ItemItinerario from './components/ItemItinerario.vue';
 	<Portada />
 
 	<!-- texto sentimos que... -->
-
 	<div class="sm:mb-32 mb-10 border-t-2 border-b-2 border-emerald-900" style="background-image: url('/images/eucaliptus-2.jpg')">
 		<div class="bg-opacity-50 bg-green-50 h-80 flex items-center justify-center">
 			<div class="container mx-auto text-center cursiva">
@@ -90,6 +89,16 @@ import ItemItinerario from './components/ItemItinerario.vue';
 		</div>
 	</div>
 
+	<!-- siento que... -->
+	<div class="sm:mb-32 mb-10 border-t-2 border-b-2 border-emerald-900" style="background-image: url('/images/eucaliptus-2.jpg')">
+		<div class="bg-opacity-50 bg-green-50 h-80 flex items-center justify-center">
+			<div class="container mx-auto text-center cursiva">
+				<h1 class="text-4xl font-bold mb-4">Yo si creo</h1>
+				<p class="text-2xl mb-2">En un amor para toda la vida que sobreviva el tiempo, los obstaculos, los cambios y la vejez.</p>
+			</div>
+		</div>
+	</div>
+
 	<!-- galeria -->
 	<div class="bg-green-100">
 		<div class="container mx-auto py-8">
@@ -146,9 +155,7 @@ import ItemItinerario from './components/ItemItinerario.vue';
 		<img src="/images/eucaliptus-4.jpg" class="rotate-180" alt="">
 	</div>
 
-
-
-	<!-- texto agradecimiento -->
+	<!-- pedir tema -->
 	<div class="bg-green-100">
 		<div class="container mx-auto py-8">
 			<h1 class="text-4xl font-bold mb-6 text-center cursiva">Pedile un tema al DJ</h1>
@@ -165,11 +172,12 @@ import ItemItinerario from './components/ItemItinerario.vue';
 	</div>
 
 	<!-- pedir bebida -->
-	<div class="bg-cover bg-center" style="background-image: url('/images/eucaliptus-5.jpg')">
-		<div class="bg-opacity-60 bg-green-50 h-min flex items-center justify-center text-center p-3">
-
-			<p class=" cursiva text-2xl font-bold">Estamos organizando una fiesta al aire libre y esperamos que traigas tu propia bebida, para que podamos mantenernos hidratados y felices.</p>
-
+	<div class="sm:mb-32 mb-10 bg-cover bg-center border-t-2 border-b-2 border-emerald-900" style="background-image: url('/images/eucaliptus-2.jpg')">
+		<div class="bg-opacity-50 bg-green-50 h-60 flex items-center justify-center">
+			<div class="container mx-auto text-center cursiva">
+				<!-- <h1 class="text-4xl font-bold mb-4">Sentimos que...</h1> -->
+				<p class="text-2xl font-bold mb-2">Estamos organizando una fiesta al aire libre y esperamos que traigas tu propia bebida, para que podamos mantenernos hidratados y felices.</p>
+			</div>
 		</div>
 	</div>
 

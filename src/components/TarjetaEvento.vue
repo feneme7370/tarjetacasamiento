@@ -13,8 +13,8 @@
         <img :src=" imagen  " alt="Evento 1" class="w-full h-60 object-cover">
         <div class="p-4">
             <h2 class="text-2xl font-bold mb-2 cursiva">{{ nombre }}</h2>
-            <p class="text-base mb-2">{{ fecha }}</p>
-            <p class="text-base mb-2">{{ lugar }}</p>
+            <p class="text-xl mb-2">{{ fecha }}</p>
+            <p class="text-xl mb-2">{{ lugar }}</p>
             <div class="mt-1 flex justify-center items-center">
                 <a :href=" mapa " target="_blank" class="bg-emerald-700 hover:bg-emerald-800 text-white text-lg py-1 px-2 rounded focus:outline-none focus:shadow-outline text-center">Ver en Mapa</a>
             </div>
