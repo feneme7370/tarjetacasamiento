@@ -6,8 +6,27 @@ body {
     font-family: 'Edu TAS Beginner', cursive;
 }
 
+.fondo-primario {
+    background-color: rgb(48, 95, 100)
+}
+.borde-primario {
+    border-color: #305e63;
+}
+.fondo-secundario {
+    background-color: #87bfaa;
+}
+.letra-primaria {
+    color: #305e63;
+}
+.fondo-primario-dark {
+    background-color: #204d52;
+}
+
 .cursiva {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'tangerine', 'Dancing Script', cursive;
+}
+.montserrat {
+    font-family: "Montserrat", Sans-serif;
 }
 
 .form{

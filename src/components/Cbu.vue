@@ -3,16 +3,25 @@
 </script>
 
 <template>
-	<div class="bg-green-100">
-		<div class="mx-auto pt-8">
-			<h1 class="text-4xl font-bold mb-6 text-center cursiva">Nuestro Regalo</h1>
-			<p class="container text-2xl text-center cursiva">Es tu presencia pero si ademas quieres colaborar con nuestro proyecto de vida</p>
+	<div class="py-5 fondo-secundario">
+		<div class="mx-auto">
+			<h1 class="text-5xl font-bold mb-6 text-center cursiva flex items-center justify-center gap-3">
+				<span>
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+					</svg>
+				</span>
+				<span>
+					Nuestro Regalo
+				</span>
+			</h1>
+			<p class="container text-lg px-2 text-center montserrat">Es tu presencia pero si ademas quieres colaborar con nuestro proyecto de vida</p>
 
-			<div class="bg-white p-1 mt-4">
-				<div class="accordion">
+			<div class="p-1 mt-4 px-5 montserrat">
+				<div class="accordion border-2 borde-primario rounded-3xl ">
 					<input type="checkbox" class="accordion-checkbox" id="panel1">
-					<label class="accordion-label cursor-pointer" for="panel1">
-						<h2 class="text-xl pl-10">Ver CBU</h2>
+					<label class="accordion-label cursor-pointer px-2" for="panel1">
+						<h2 class="text-lg pl-5">VER CBU</h2>
 						<div class="accordion-icon">&#x25BC;</div>
 					</label>
 					<div class="accordion-content">
