@@ -26,7 +26,7 @@ import ItemItinerario from './components/ItemItinerario.vue';
 						Sentimos que...
 					</span>
 				</h1>
-				<p class="text-3xl mb-2 pl-20">Cuando te das cuenta de que quieres pasar el resto de tu vida con alguien, deseas que el resto de tu
+				<p class="text-3xl font-bold letra-primaria mb-2 pl-20">Cuando te das cuenta de que quieres pasar el resto de tu vida con alguien, deseas que el resto de tu
 					vida empiece lo antes posible.</p>
 			</div>
 		</div>
@@ -104,7 +104,7 @@ import ItemItinerario from './components/ItemItinerario.vue';
 		<div class="bg-opacity-50 bg-green-50 h-80 flex items-center justify-center">
 			<div class="container mx-auto text-center cursiva">
 				<h1 class="text-5xl font-bold mb-4">Yo si creo</h1>
-				<p class="text-3xl mb-2">En un amor para toda la vida que sobreviva el tiempo, los obstaculos, los cambios y la vejez.</p>
+				<p class="text-3xl mb-2 mt-5 font-bold">En un amor para toda la vida que sobreviva el tiempo, los obstaculos, los cambios y la vejez.</p>
 			</div>
 		</div>
 	</div>
@@ -179,17 +179,17 @@ import ItemItinerario from './components/ItemItinerario.vue';
 	<!-- pedir tema -->
 	<div class="fondo-primario">
 		<div class="container mx-auto py-8">
-			<h1 class="text-white text-4xl mb-6 text-center cursiva">Pedile un tema al DJ</h1>
+			<h1 class="text-white text-5xl mb-6 text-center cursiva">Pedile un tema al DJ</h1>
 			
 				
 				<div class=" flex items-center justify-center gap-4">
-					<a href="https://api.whatsapp.com/send/?phone=5492396627259&text=Quiero bailar " class="fondo-primario hover:fondo-primario-dark text-white font-bold text-xl py-3 px-3 rounded-3xl focus:outline-none focus:shadow-outline text-center border border-white flex items-center justify-center gap-4">
+					<a href="https://api.whatsapp.com/send/?phone=5492396627259&text=Quiero bailar " class="fondo-primario hover:fondo-primario-dark text-white font-bold text-2xl py-3 px-3 rounded-3xl focus:outline-none focus:shadow-outline text-center border border-white flex items-center justify-center gap-4">
 						<span class="text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z" />
 							</svg>
 						</span>
-						<span>Quiero bailar...</span>
+						<span class="cursiva text-3xl">Quiero bailar...</span>
 						<span class="text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z" />
@@ -202,9 +202,9 @@ import ItemItinerario from './components/ItemItinerario.vue';
 
 	<!-- pedir bebida -->
 	<div class="bg-cover bg-center border-t-2 borde-primario" style="background-image: url('/images/eucaliptus-2.jpg')">
-		<div class="bg-opacity-20 bg-green-50 h-60 flex items-center justify-center">
+		<div class="bg-opacity-20  h-60 flex items-center justify-center">
 			<div class="container mx-auto text-center montserrat letra-primaria">
-				<p class="text-lg mb-2 px-4">Estamos organizando una fiesta al aire libre y esperamos que traigas tu propia bebida, para que podamos mantenernos hidratados y felices.</p>
+				<p class="text-lg my-1 px-5">Estamos organizando una fiesta al aire libre y esperamos que traigas tu propia bebida, para que podamos mantenernos hidratados y felices.</p>
 				<span class=" flex items-center justify-center gap-1 letra-primaria">
 					<svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#305f64" d="M32 64c0-17.7 14.3-32 32-32H352c17.7 0 32 14.3 32 32V96h51.2c42.4 0 76.8 34.4 76.8 76.8V274.9c0 30.4-17.9 57.9-45.6 70.2L384 381.7V416c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V64zM384 311.6l56.4-25.1c4.6-2.1 7.6-6.6 7.6-11.7V172.8c0-7.1-5.7-12.8-12.8-12.8H384V311.6zM160 144c0-8.8-7.2-16-16-16s-16 7.2-16 16V368c0 8.8 7.2 16 16 16s16-7.2 16-16V144zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16V368c0 8.8 7.2 16 16 16s16-7.2 16-16V144zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16V368c0 8.8 7.2 16 16 16s16-7.2 16-16V144z"/></svg>
 					<svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#305f64" d="M32 64c0-17.7 14.3-32 32-32H352c17.7 0 32 14.3 32 32V96h51.2c42.4 0 76.8 34.4 76.8 76.8V274.9c0 30.4-17.9 57.9-45.6 70.2L384 381.7V416c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V64zM384 311.6l56.4-25.1c4.6-2.1 7.6-6.6 7.6-11.7V172.8c0-7.1-5.7-12.8-12.8-12.8H384V311.6zM160 144c0-8.8-7.2-16-16-16s-16 7.2-16 16V368c0 8.8 7.2 16 16 16s16-7.2 16-16V144zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16V368c0 8.8 7.2 16 16 16s16-7.2 16-16V144zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16V368c0 8.8 7.2 16 16 16s16-7.2 16-16V144z"/></svg>

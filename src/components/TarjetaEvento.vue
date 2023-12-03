@@ -11,7 +11,7 @@
 <template>
     <div class="max-w-md mx-auto bg-white rounded-md shadow-md overflow-hidden my-4 cursiva">
         <img :src=" imagen  " alt="Evento 1" class="w-full h-60 object-cover">
-        <div class="p-4">
+        <div class="p-4 font-bold">
             <h2 class="text-4xl font-bold mb-2 cursiva">{{ nombre }}</h2>
             <p class="text-2xl mb-2">{{ fecha }}</p>
             <p class="text-2xl mb-2">{{ lugar }}</p>
