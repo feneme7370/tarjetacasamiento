@@ -22,10 +22,10 @@ import Frase1 from './components/Frase1.vue';
 			</div>
 		</div>
 	</div> -->
-	<div class="">
-		<img class="rounded-2xl" src="/public/images/nosotros5.jpg" alt="">
+	<div class="mb-1">
+		<img class="bg-cover bg-center" src="/public/images/nosotros5.png" alt="">
 	</div>
-	<div class="">
+	<div class="mb-1">
 		<img class="rounded-2xl" src="/public/images/frase4.png" alt="">
 	</div>
 	<!-- texto sentimos que... -->
