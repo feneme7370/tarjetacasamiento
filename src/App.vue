@@ -23,7 +23,7 @@ import Frase1 from './components/Frase1.vue';
 		</div>
 	</div> -->
 	<div class="">
-		<img class="rounded-2xl" src="/public/images/frase3.png" alt="">
+		<img class="rounded-2xl" src="/public/images/frase4.png" alt="">
 	</div>
 	<!-- texto sentimos que... -->
 	<!-- <div class="sm:mb-32 mb-10 border-t-2 border-b-2 border-emerald-900" style="background-image: url('/images/eucaliptus-2.jpg')">
