@@ -15,7 +15,7 @@
 					Nuestro Regalo
 				</span>
 			</h1>
-			<p class="container text-lg px-2 text-center montserrat">Es tu presencia pero si ademas quieres colaborar con nuestro proyecto de vida</p>
+			<p class="container text-lg px-2 text-center montserrat"><span class="font-bold">Es tu presencia</span>, pero si ademas quieres colaborar con nuestro proyecto de vida</p>
 
 			<div class="p-1 mt-4 px-5 montserrat">
 				<div class="accordion border-2 borde-primario rounded-3xl ">
@@ -25,7 +25,7 @@
 						<div class="accordion-icon">&#x25BC;</div>
 					</label>
 					<div class="accordion-content">
-						<p class="text-base text-center my-3">1234567890123456</p>
+						<p class="text-base font-bold text-center my-3">1234567890123456</p>
 					</div>
 				</div>
 			</div>
