@@ -14,15 +14,17 @@ import Frase1 from './components/Frase1.vue';
 	<!-- <Frase1 /> -->
 
 	<!-- siento que... -->
-	<div class=" borde-primario bg-cover" style="background-image: url('/images/eucaliptus-6.jpg')">
+	<!-- <div class=" borde-primario bg-cover" style="background-image: url('/images/eucaliptus-6.jpg')">
 		<div class="bg-opacity-50 bg-green-50 h-80 flex items-center justify-center">
 			<div class="container mx-auto text-center cursiva">
 				<h1 class="text-5xl font-bold mb-4">Yo si creo</h1>
 				<p class="text-3xl mb-2 mt-5 font-bold">En un amor para toda la vida que sobreviva el tiempo, los obstaculos, los cambios y la vejez.</p>
 			</div>
 		</div>
+	</div> -->
+	<div class="">
+		<img class="rounded-2xl" src="/public/images/frase3.png" alt="">
 	</div>
-
 	<!-- texto sentimos que... -->
 	<!-- <div class="sm:mb-32 mb-10 border-t-2 border-b-2 border-emerald-900" style="background-image: url('/images/eucaliptus-2.jpg')">
 		<div class="bg-opacity-20 bg-green-50 h-80 flex items-end gap-3">
