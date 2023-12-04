@@ -10,7 +10,7 @@ import Frase1 from './components/Frase1.vue';
 <template>
 
 	<!-- portada -->
-	<Portada />
+	<!-- <Portada /> -->
 	<!-- <Frase1 /> -->
 
 	<!-- siento que... -->
@@ -22,6 +22,9 @@ import Frase1 from './components/Frase1.vue';
 			</div>
 		</div>
 	</div> -->
+	<div class="">
+		<img class="rounded-2xl" src="/public/images/nosotros5.jpg" alt="">
+	</div>
 	<div class="">
 		<img class="rounded-2xl" src="/public/images/frase4.png" alt="">
 	</div>
