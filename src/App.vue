@@ -22,8 +22,8 @@ import Frase1 from './components/Frase1.vue';
 			</div>
 		</div>
 	</div> -->
-	<div class="mb-1">
-		<img class="bg-cover h-5/6" src="/public/images/nosotros5.png" alt="">
+	<div class="h-screen flex flex-col justify-center items-center">
+		<img class="bg-cover h-96" src="/public/images/nosotros5.png" alt="">
 	</div>
 	<div class="mb-1">
 		<img class="rounded-2xl" src="/public/images/frase4.png" alt="">
