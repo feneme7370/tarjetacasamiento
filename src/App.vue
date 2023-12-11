@@ -23,31 +23,11 @@ import Frase1 from './components/Frase1.vue';
 		</div>
 	</div> -->
 	<div class="mb-1">
-		<img class="bg-cover bg-center" src="/public/images/nosotros5.png" alt="">
+		<img class="bg-cover h-5/6" src="/public/images/nosotros5.png" alt="">
 	</div>
 	<div class="mb-1">
 		<img class="rounded-2xl" src="/public/images/frase4.png" alt="">
 	</div>
-	<!-- texto sentimos que... -->
-	<!-- <div class="sm:mb-32 mb-10 border-t-2 border-b-2 border-emerald-900" style="background-image: url('/images/eucaliptus-2.jpg')">
-		<div class="bg-opacity-20 bg-green-50 h-80 flex items-end gap-3">
-			<div class="container mx-auto cursiva px-4">
-				<h1 class="text-5xl font-bold mb-4 text-right flex justify-end items-center">
-					<span>
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
-						<path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-						</svg>
-					</span>
-					<span>
-						Sentimos que...
-					</span>
-				</h1>
-				<p class="text-3xl font-bold letra-primaria mb-2 pl-20">Cuando te das cuenta de que quieres pasar el resto de tu vida con alguien, deseas que el resto de tu
-					vida empiece lo antes posible.</p>
-			</div>
-		</div>
-	</div> -->
-
 
 	<!-- Civil y Celebracion -->
 	<div class="">
@@ -59,7 +39,7 @@ import Frase1 from './components/Frase1.vue';
 					:nombre="'Civil'"
 					:fecha="'Fecha: 12 de Enero, 2024'"
 					:lugar="'Lugar: Alsina 356, Pehuajo'"
-					:imagen="'/images/nosotros1.jpeg'"
+					:imagen="'/images/nosotros6.jpeg'"
 					:mapa="'https://www.google.com/maps/place/Registro+Civil/@-35.8111359,-61.9017263,16z/data=!4m10!1m2!2m1!1sregistro+civil+pehuajo+!3m6!1s0x95c0f82d5b461f57:0x4af780ced0f990a4!8m2!3d-35.8100811!4d-61.8987523!15sChZyZWdpc3RybyBjaXZpbCBwZWh1YWpvkgEPcmVnaXN0cnlfb2ZmaWNl4AEA!16s%2Fg%2F11dxl9y74q?hl=es&entry=ttu'"
 				/>
 				<TarjetaEvento 
@@ -127,25 +107,25 @@ import Frase1 from './components/Frase1.vue';
 
 			<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
 				<div class="relative group cursor-pointer">
-					<img src="/images/nosotros1.jpeg" alt="Foto 1" class="w-full h-80 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
+					<img src="/images/nosotros7.jpeg" alt="Foto 1" class="w-full h-96 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
 					<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
 						<span class="text-white text-xl font-bold">Queremos</span>
 					</div>
 				</div>
 				<div class="relative group cursor-pointer">
-					<img src="/images/nosotros2.jpeg" alt="Foto 2" class="w-full h-80 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
+					<img src="/images/nosotros2.jpeg" alt="Foto 2" class="w-full h-96 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
 					<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
 						<span class="text-white text-xl font-bold">Que</span>
 					</div>
 				</div>
 				<div class="relative group cursor-pointer">
-					<img src="/images/nosotros3.jpeg" alt="Foto 3" class="w-full h-80 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
+					<img src="/images/nosotros8.jpeg" alt="Foto 3" class="w-full h-96 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
 					<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
 						<span class="text-white text-xl font-bold">Lo</span>
 					</div>
 				</div>
 				<div class="relative group cursor-pointer">
-					<img src="/images/nosotros4.jpeg" alt="Foto 4" class="w-full h-80 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
+					<img src="/images/nosotros4.jpeg" alt="Foto 4" class="w-full h-96 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
 					<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
 						<span class="text-white text-xl font-bold">Disfrutes</span>
 					</div>

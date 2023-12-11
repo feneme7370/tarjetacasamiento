@@ -13,7 +13,7 @@
 		<img src="https://www.educima.com/imagen-anillos-de-boda-dl28309.jpg" alt="Imagen de fondo"
 			class="absolute opacity-50 inset-0 w-full h-full object-cover">
 	</div> -->
-	<div class="bg-cover bg-center sm:mb-32 mb-1" style="background-image: url('/images/nosotros5.png')">
+	<div class="bg-cover bg-center sm:mb-32 mb-1 h-screen" style="background-image: url('/images/nosotros5.png')">
 		<div class="bg-opacity-0 bg-green-50 h-80 flex items-center justify-center">
 			<!-- <div class="container mx-auto text-center cursiva">
 				<h1 class="text-6xl font-bold mb-4">Nuesto Casamiento</h1>
