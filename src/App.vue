@@ -22,8 +22,8 @@ import Frase1 from './components/Frase1.vue';
 			</div>
 		</div>
 	</div> -->
-	<div class="h-screen flex flex-col justify-center items-center">
-		<img class="bg-cover h-96" src="/public/images/nosotros5.png" alt="">
+	<div class="mb-3">
+		<img class="object-cover  mx-auto w-full " src="/public/images/nosotros13.png" alt="">
 	</div>
 	<div class="mb-1">
 		<img class="rounded-2xl" src="/public/images/frase4.png" alt="">
@@ -45,8 +45,8 @@ import Frase1 from './components/Frase1.vue';
 				<TarjetaEvento 
 					:nombre="'Celebracion'"
 					:fecha="'Fecha: 13 de Enero, 2024'"
-					:lugar="'Lugar: Ruta 366, Pehuajo'"
-					:imagen="'/images/nosotros2.jpeg'"
+					:lugar="'Lugar: Ruta 5, Km 367, Pehuajo'"
+					:imagen="'/images/nosotros12.jpeg'"
 					:mapa="'https://www.google.com/maps/place/Arenales+356,+Carlos+Casares,+Provincia+de+Buenos+Aires/@-35.6197884,-61.3618965,17z/data=!3m1!4b1!4m5!3m4!1s0x95c0823ae11e9dd1:0x1c3caf321fdbb6b2!8m2!3d-35.6197928!4d-61.3593216?hl=es&entry=ttu'"
 				/>
 
