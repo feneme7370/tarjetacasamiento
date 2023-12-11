@@ -22,7 +22,7 @@ import Frase1 from './components/Frase1.vue';
 			</div>
 		</div>
 	</div> -->
-	<div class="mb-3">
+	<div class="mb-3 h-screen flex items-center">
 		<img class="object-cover  mx-auto w-full " src="/public/images/nosotros13.png" alt="">
 	</div>
 	<div class="mb-1">
