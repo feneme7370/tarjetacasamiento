@@ -38,7 +38,7 @@ import Frase1 from './components/Frase1.vue';
 				<TarjetaEvento 
 					:nombre="'Civil'"
 					:fecha="'Fecha: 12 de Enero, 2024'"
-					:lugar="'Lugar: Alsina 356, Pehuajo'"
+					:lugar="'Lugar: Alsina 590, Pehuajo'"
 					:imagen="'/images/nosotros6.jpeg'"
 					:mapa="'https://www.google.com/maps/place/Registro+Civil/@-35.8111359,-61.9017263,16z/data=!4m10!1m2!2m1!1sregistro+civil+pehuajo+!3m6!1s0x95c0f82d5b461f57:0x4af780ced0f990a4!8m2!3d-35.8100811!4d-61.8987523!15sChZyZWdpc3RybyBjaXZpbCBwZWh1YWpvkgEPcmVnaXN0cnlfb2ZmaWNl4AEA!16s%2Fg%2F11dxl9y74q?hl=es&entry=ttu'"
 				/>
@@ -47,7 +47,7 @@ import Frase1 from './components/Frase1.vue';
 					:fecha="'Fecha: 13 de Enero, 2024'"
 					:lugar="'Lugar: Ruta 5, Km 367, Pehuajo'"
 					:imagen="'/images/nosotros12.jpeg'"
-					:mapa="'https://www.google.com/maps/place/Arenales+356,+Carlos+Casares,+Provincia+de+Buenos+Aires/@-35.6197884,-61.3618965,17z/data=!3m1!4b1!4m5!3m4!1s0x95c0823ae11e9dd1:0x1c3caf321fdbb6b2!8m2!3d-35.6197928!4d-61.3593216?hl=es&entry=ttu'"
+					:mapa="'https://www.google.com.ar/maps/@-35.844199,-61.8973193,445m/data=!3m1!1e3?entry=ttu'"
 				/>
 
 			</div>
