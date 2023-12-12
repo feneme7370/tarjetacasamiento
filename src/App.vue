@@ -79,17 +79,17 @@ import Frase1 from './components/Frase1.vue';
 				<ItemItinerario
 					:hora="'22:30'"
 					:titulo="'Cena'"
-					:descripcion="'Mmmm... que rico'"
+					:descripcion="'¡¡ Que hambre !!'"
 				/>
 				<ItemItinerario
 					:hora="'02:00'"
 					:titulo="'Mesa Dulce'"
-					:descripcion="'ñami ñani ;)'"
+					:descripcion="'Mmmm... que rico'"
 				/>
 				<ItemItinerario
 					:hora="'03:30'"
 					:titulo="'Carioca'"
-					:descripcion="'Pe pe pe pe'"
+					:descripcion="'♫ Pe pe pe pe ♫'"
 				/>
 			</div>
 		</div>
@@ -103,7 +103,7 @@ import Frase1 from './components/Frase1.vue';
 	<div class="">
 	<!-- <div class="bg-white"> -->
 		<div class="container mx-auto py-8">
-			<h1 class="text-5xl font-bold mb-6 text-center cursiva">Galería de Fotos</h1>
+			<h1 class="text-5xl font-bold mb-6 text-center cursiva">Un poco de nosotros...</h1>
 
 			<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
 				<div class="relative group cursor-pointer">
@@ -119,7 +119,7 @@ import Frase1 from './components/Frase1.vue';
 					</div>
 				</div>
 				<div class="relative group cursor-pointer">
-					<img src="/images/nosotros8.jpeg" alt="Foto 3" class="w-full h-96 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
+					<img src="/images/nosotros14.jpeg" alt="Foto 3" class="w-full h-96 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
 					<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
 						<span class="text-white text-xl font-bold">Lo</span>
 					</div>
