@@ -25,7 +25,7 @@
 						<div class="accordion-icon">&#x25BC;</div>
 					</label>
 					<div class="accordion-content">
-						<p class="text-base font-bold text-center my-3">1234567890123456</p>
+						<p class="text-base font-bold text-center my-3">0140308203673852562164</p>
 					</div>
 				</div>
 			</div>
