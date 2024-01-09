@@ -35,13 +35,13 @@ import Frase1 from './components/Frase1.vue';
 		<div class="bg-opacity-50 bg-green-50 h-min flex items-center justify-center">
 			<div class="container mx-auto">
 
-				<TarjetaEvento 
+				<!-- <TarjetaEvento 
 					:nombre="'Civil'"
 					:fecha="'Fecha: 12 de Enero, 2024'"
 					:lugar="'Lugar: Alsina 590, Pehuajo'"
 					:imagen="'/images/nosotros6.jpeg'"
 					:mapa="'https://www.google.com/maps/place/Registro+Civil/@-35.8111359,-61.9017263,16z/data=!4m10!1m2!2m1!1sregistro+civil+pehuajo+!3m6!1s0x95c0f82d5b461f57:0x4af780ced0f990a4!8m2!3d-35.8100811!4d-61.8987523!15sChZyZWdpc3RybyBjaXZpbCBwZWh1YWpvkgEPcmVnaXN0cnlfb2ZmaWNl4AEA!16s%2Fg%2F11dxl9y74q?hl=es&entry=ttu'"
-				/>
+				/> -->
 				<TarjetaEvento 
 					:nombre="'Celebracion'"
 					:fecha="'Fecha: 13 de Enero, 2024'"
@@ -69,7 +69,7 @@ import Frase1 from './components/Frase1.vue';
 				<ItemItinerario
 					:hora="'20:30'"
 					:titulo="'Ceremonia'"
-					:descripcion="'Llegada de la novia'"
+					:descripcion="'Llegada de los novios'"
 				/>
 				<ItemItinerario
 					:hora="'21:00'"
@@ -77,19 +77,34 @@ import Frase1 from './components/Frase1.vue';
 					:descripcion="'A degustar la entrada'"
 				/>
 				<ItemItinerario
-					:hora="'22:30'"
-					:titulo="'Cena'"
-					:descripcion="'¡¡ Que hambre !!'"
+					:hora="'21:45'"
+					:titulo="'Baile'"
+					:descripcion="'Primer baile de la noche'"
 				/>
 				<ItemItinerario
-					:hora="'02:00'"
-					:titulo="'Mesa Dulce'"
+					:hora="'23:00'"
+					:titulo="'Cena'"
+					:descripcion="'¡¡ Lechon y Carne !!'"
+				/>
+				<ItemItinerario
+					:hora="'00:00'"
+					:titulo="'La segundita'"
+					:descripcion="'Segunda tanda de baile'"
+				/>
+				<ItemItinerario
+					:hora="'02:30'"
+					:titulo="'Mesa Dulce y Brindis'"
 					:descripcion="'Mmmm... que rico'"
 				/>
 				<ItemItinerario
 					:hora="'03:30'"
-					:titulo="'Carioca'"
+					:titulo="'Seguimos bailando'"
 					:descripcion="'♫ Pe pe pe pe ♫'"
+				/>
+				<ItemItinerario
+					:hora="'04:30'"
+					:titulo="'Carioca'"
+					:descripcion="'♫ A saltar ♫'"
 				/>
 			</div>
 		</div>
